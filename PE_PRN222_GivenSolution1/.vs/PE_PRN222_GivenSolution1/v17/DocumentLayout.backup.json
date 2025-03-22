@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\PE\\Pe_Clojne\\PE_PRN222_GivenSolution1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06CDC1A1-BFD7-4460-A1FF-B0EF2194906F}|Project12\\Project12.csproj|d:\\pe\\pe_clojne\\pe_prn222_givensolution1\\project12\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{06CDC1A1-BFD7-4460-A1FF-B0EF2194906F}|Project12\\Project12.csproj|solutionrelative:project12\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06CDC1A1-BFD7-4460-A1FF-B0EF2194906F}|Project12\\Project12.csproj|d:\\pe\\pe_clojne\\pe_prn222_givensolution1\\project12\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06CDC1A1-BFD7-4460-A1FF-B0EF2194906F}|Project12\\Project12.csproj|solutionrelative:project12\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06CDC1A1-BFD7-4460-A1FF-B0EF2194906F}|Project12\\Project12.csproj|d:\\pe\\pe_clojne\\pe_prn222_givensolution1\\project12\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06CDC1A1-BFD7-4460-A1FF-B0EF2194906F}|Project12\\Project12.csproj|solutionrelative:project12\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EFBF2E0-8F60-4FAE-B978-E93FEFD5F870}|Project11\\Project11.csproj|d:\\pe\\pe_clojne\\pe_prn222_givensolution1\\project11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFBF2E0-8F60-4FAE-B978-E93FEFD5F870}|Project11\\Project11.csproj|solutionrelative:project11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFBF2E0-8F60-4FAE-B978-E93FEFD5F870}|Project11\\Project11.csproj|d:\\pe\\pe_clojne\\pe_prn222_givensolution1\\project11\\serverapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFBF2E0-8F60-4FAE-B978-E93FEFD5F870}|Project11\\Project11.csproj|solutionrelative:project11\\serverapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 112,
+          "SelectedChildIndex": 111,
           "Children": [
             {
               "$type": "Bookmark",
@@ -470,40 +470,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\PE\\Pe_Clojne\\PE_PRN222_GivenSolution1\\Project12\\Book.cs",
-              "RelativeDocumentMoniker": "Project12\\Book.cs",
-              "ToolTip": "D:\\PE\\Pe_Clojne\\PE_PRN222_GivenSolution1\\Project12\\Book.cs",
-              "RelativeToolTip": "Project12\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T05:00:11.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\PE\\Pe_Clojne\\PE_PRN222_GivenSolution1\\Project12\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Project12\\MainWindow.xaml",
-              "ToolTip": "D:\\PE\\Pe_Clojne\\PE_PRN222_GivenSolution1\\Project12\\MainWindow.xaml",
-              "RelativeToolTip": "Project12\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-22T04:59:31.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\PE\\Pe_Clojne\\PE_PRN222_GivenSolution1\\Project12\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Project12\\MainWindow.xaml.cs",
               "ToolTip": "D:\\PE\\Pe_Clojne\\PE_PRN222_GivenSolution1\\Project12\\MainWindow.xaml.cs",
               "RelativeToolTip": "Project12\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T04:53:30.604Z",
+              "WhenOpened": "2025-03-22T07:24:16.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServerApp.cs",
+              "DocumentMoniker": "D:\\PE\\Pe_Clojne\\PE_PRN222_GivenSolution1\\Project11\\ServerApp.cs",
+              "RelativeDocumentMoniker": "Project11\\ServerApp.cs",
+              "ToolTip": "D:\\PE\\Pe_Clojne\\PE_PRN222_GivenSolution1\\Project11\\ServerApp.cs",
+              "RelativeToolTip": "Project11\\ServerApp.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T07:17:31.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PE\\Pe_Clojne\\PE_PRN222_GivenSolution1\\Project11\\Program.cs",
+              "RelativeDocumentMoniker": "Project11\\Program.cs",
+              "ToolTip": "D:\\PE\\Pe_Clojne\\PE_PRN222_GivenSolution1\\Project11\\Program.cs",
+              "RelativeToolTip": "Project11\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T07:13:28.32Z",
               "EditorCaption": ""
             }
           ]
@@ -629,6 +630,16 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }

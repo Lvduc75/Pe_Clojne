@@ -11,9 +11,8 @@ namespace Project11
 {
     public class ServerApp
     {
-        private static List<Book> books = new List<Book>();
         private const int TcpPort = 5000;
-        private const int UdpPort = 5001;
+        private const int UdpPort = 5000;
         private const string IpAddress = "127.0.0.1";
 
         public static void StartTcpServer()
@@ -59,15 +58,17 @@ namespace Project11
         {
             try
             {
+                using Prn222TestdbContext dbContext = new Prn222TestdbContext();
                 JsonSerializerOptions options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
                 List<Book>? receivedBooks = JsonSerializer.Deserialize<List<Book>>(jsonData, options);
 
                 if (receivedBooks == null || receivedBooks.Count == 0)
                     throw new Exception("Invalid or empty JSON data.");
 
-                books.AddRange(receivedBooks);
-                WriteToScreen(receivedBooks);
+                dbContext.Books.AddRange(receivedBooks); 
+                dbContext.SaveChanges();                 
 
+                WriteToScreen(receivedBooks);
                 return "Accepted";
             }
             catch (JsonException)
@@ -81,6 +82,7 @@ namespace Project11
                 return "Processing Error";
             }
         }
+
 
         private static void WriteToScreen(List<Book> books)
         {

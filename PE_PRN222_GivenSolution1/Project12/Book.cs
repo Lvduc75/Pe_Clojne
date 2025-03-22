@@ -17,6 +17,6 @@ public class Book
 
     public override string ToString()
     {
-        return $"{Id} \t {NumberDouble} \t {UpdateDate?.ToShortDateString()} \t {BooleanCheck} \t {StringCheck}";
+        return $"{NumberDouble} \t {UpdateDate?.ToShortDateString()} \t {BooleanCheck} \t {StringCheck}";
     }
 }

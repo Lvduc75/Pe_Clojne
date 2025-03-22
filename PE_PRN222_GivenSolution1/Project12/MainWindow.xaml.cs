@@ -31,15 +31,8 @@ namespace Project12
 
         private void AddToList_Click(object sender, RoutedEventArgs e)
         {
-            if (!int.TryParse(txtId.Text, out int id))
-            {
-                MessageBox.Show("Invalid ID.");
-                return;
-            }
-
             Books.Add(new Book
             {
-                Id = id,
                 NumberDouble = int.TryParse(txtNumberDouble.Text, out int num) ? num : null,
                 UpdateDate = dpUpdateDate.SelectedDate,
                 BooleanCheck = chkBooleanCheck.IsChecked ?? false,
@@ -145,7 +138,6 @@ namespace Project12
 
         private void ClearFields()
         {
-            txtId.Clear();
             txtNumberDouble.Clear();
             dpUpdateDate.SelectedDate = null;
             chkBooleanCheck.IsChecked = false;
